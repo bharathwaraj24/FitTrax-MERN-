@@ -1,0 +1,101 @@
+.home-container {
+    padding: 20px;
+    max-width: 1200px;
+    margin: auto;
+    color: #333;
+    text-align: center;
+}
+
+.hero-section {
+    background-size: cover;
+    background-position: center;
+    color: white;
+    padding: 100px 20px;
+    border-radius: 8px;
+    margin-bottom: 40px;
+}
+
+.hero-section h1 {
+    font-size: 3em;
+    margin-bottom: 20px;
+}
+
+.hero-section p {
+    font-size: 1.5em;
+}
+
+.features-section {
+    margin-bottom: 40px;
+}
+
+.features-section h2 {
+    font-size: 2.5em;
+    margin-bottom: 20px;
+}
+
+.features-grid {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+}
+
+.feature-card {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 20px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    flex: 1 1 calc(45% - 40px);
+    max-width: 45%;
+    margin: 10px;
+    text-align: center;
+}
+
+.feature-card img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 8px;
+    margin-bottom: 15px;
+}
+
+.feature-card h3 {
+    color: #007bff;
+    margin-bottom: 10px;
+}
+
+.feature-card p {
+    color: #555;
+}
+
+.call-to-action {
+    background-color: #007bff;
+    color: white;
+    padding: 40px 20px;
+    border-radius: 8px;
+}
+
+.call-to-action h2 {
+    font-size: 2em;
+    margin-bottom: 20px;
+}
+
+.call-to-action p {
+    font-size: 1.2em;
+    margin-bottom: 20px;
+}
+
+.call-to-action button {
+    background-color: white;
+    color: #007bff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1em;
+}
+
+.call-to-action button:hover {
+    background-color: #e6e6e6;
+}
